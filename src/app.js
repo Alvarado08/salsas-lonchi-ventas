@@ -126,6 +126,8 @@ function borrarTodo(){
     totalSale = 0;
     total.textContent = totalSale;
     totalGanancia = 0
+    let inversion = "";
+    inputInvestment.value = inversion;
     ganancia.textContent = totalGanancia;
     hideDollar.classList.remove("hide-dollar");
 }
