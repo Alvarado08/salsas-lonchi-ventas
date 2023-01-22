@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/app.css">
+    <title>Salsas Lonchi: Mis Ventas</title>
+</head>
+<body>
+    <header id="titles">
+        <h1 id="title">Salsas Lonchi</h1>
+        <h2 id="subtitle">Mis Ventas</h2>
+    </header>
+    <main id="container">
+        <article class="product" id="redSauce">
+            <span class="item-counter" id="redSauce-counter">0</span>
+            <i class="fa fa-wine-bottle"></i>
+            <button class="btn btn-add" id="redSauce-btn-add">+1</button>
+            <span class="item-name">Salsa Roja</span>
+            <button class="btn btn-subtract" id="redSauce-btn-sub">-1</button>
+        </article>
+        <article class="product" id="greenSauce">
+            <span class="item-counter" id="greenSauce-counter">0</span>
+            <i class="fa fa-wine-bottle"></i>
+            <button class="btn btn-add" id="greenSauce-btn-add">+1</button>
+            <span class="item-name">Salsa Verde</span>
+            <button class="btn btn-subtract" id="greenSauce-btn-sub">-1</button>
+        </article>
+        <article class="product" id="yellowSauce">
+            <span class="item-counter" id="yellowSauce-counter">0</span>
+            <i class="fa fa-wine-bottle"></i>
+            <button class="btn btn-add" id="yellowSauce-btn-add">+1</button>
+            <span class="item-name">Salsa Amarilla</span>
+            <button class="btn btn-subtract" id="yellowSauce-btn-sub">-1</button>
+        </article>
+        <article class="product" id="burnSauce">
+            <span class="item-counter" id="burnSauce-counter">0</span>
+            <i class="fa fa-wine-bottle"></i>
+            <button class="btn btn-add" id="burnSauce-btn-add">+1</button>
+            <span class="item-name">Salsa Quemada</span>
+            <button class="btn btn-subtract" id="burnSauce-btn-sub">-1</button>
+        </article>
+    </main>
+    <section id="investment-section">
+        <label for="invest">Inversion:</label>
+        <span>$</span>
+        <input type="text" id="investment" name="invest" size="5"> 
+    </section>
+    <section id="total-section">
+        <h3>Venta Total:</h3>
+        &nbsp;
+        <span class="dollar">$</span>
+        <span id="total">0</span>
+    </section>
+    <section id="profit-section">
+        <span id="profit-name">Ganancias:</span>
+        &nbsp;
+        <span id="dollar">$</span>
+        <span id="total-profit">0</span>
+    </section>
+    <section id="main-btns-section">
+        <button class="btn-3 btn-calcular" id="calcular">Calcular Ganancia</button>
+        <button class="btn-2 btn-borrar" id="borrar">Borrar</button>
+    </section>
+    <script src="src/app.js"></script>
+</body>
+</html>

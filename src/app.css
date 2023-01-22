@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#titles {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    padding: 1rem;
+}
+
+.item-name, .item-counter, .btn-calcular, #borrar, #investment-section, #profit-section, #total-section {
+    font-weight: 700;
+}
+
+.item-name {
+    font-size: 1.2rem;
+}
+
+.product {
+    margin-bottom: 1rem;
+}
+
+#investment-section {
+    font-size: 1.4rem;
+}
+
+#investment {
+    padding: .2rem;
+    outline: none;
+    border: 3px solid black;
+    transition: 0.5s;
+    font-size: 1rem;
+}
+
+/* #investment:disabled {
+    border-color: #ccc;
+} */
+
+#investment:focus {
+    border: 3px solid rgb(169, 166, 166);
+}
+
+#total-section, #profit-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+#total {
+    font-size: 1.5rem;
+}
+
+.dollar {
+    font-size: 1.4rem;
+}
+
+#container, #total-section, #main-btns-section, #investment-section, #profit-section {
+    margin: 0 auto;
+}
+
+#main-btns-section, #investment-section, #total-section, #profit-section {
+    margin-top: 1rem;
+    max-width: fit-content;
+}
+
+#profit-section {
+    width: fit-content;
+    font-size: 1.5rem;
+}
+
+#main-btn-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide-dollar {
+    display: none;
+}
+
+.btn {
+    text-align: center;
+    padding: .5rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-2 {
+    text-align: center;
+    padding: .5rem;
+    border-style: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 4.7rem;
+    text-transform: uppercase;
+}
+
+.btn-3 {
+    text-align: center;
+    padding: .5rem;
+    border-style: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 11rem;
+    text-transform: uppercase;
+}
+
+.btn-add, .btn-calcular {
+    color: white;
+    background: green;
+}
+
+.btn-subtract {
+    color: white;
+    background: red;
+}
+
+.btn-borrar {
+    color: white;
+    background: darkred;
+}
