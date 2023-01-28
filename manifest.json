@@ -1,0 +1,21 @@
+{
+    "name": "Salsas Lonchi: Mis Ventas",
+    "short_name": "Mis Ventas",
+    "start_url": ".",
+    "background_color": "white",
+    "theme_color": "white",
+    "display": "standalone",
+    "icons":[
+        {
+            "src": "src/img/fav.png.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "src/img/fav.png.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
